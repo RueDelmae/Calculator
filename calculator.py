@@ -1,18 +1,15 @@
 def add(a, b):
-    pass
+    return a + b
 
 def subtract(a, b):
-    return a - b
+    pass
 
 def multiply(a, b):
-    return a * b
+    pass
 
 def divide(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Cannot divide by zero"
-
+    pass
+    
 def main():
     print("Select operation:")
     print("1. Add")
