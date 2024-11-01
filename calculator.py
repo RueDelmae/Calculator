@@ -8,7 +8,10 @@ def multiply(a, b):
     pass
 
 def divide(a, b):
-    pass
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero"
 
 def main():
     print("Select operation:")
